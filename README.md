@@ -1,2 +1,5 @@
-# gradle_selenium
-An example project for an article on How to create Gradle project with Selenium
+# Gradle Selenium Java
+
+**Project Structure**
+SDK: OpenJDK 11
+Language level: 8
