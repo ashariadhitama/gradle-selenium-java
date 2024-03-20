@@ -1,0 +1,114 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-20T07:05:12.612Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1638000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.test.Hooks.GeneralHooks.before()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Open google and search for Honda",
+        "description": "",
+        "id": "forgot-password;open-google-and-search-for-honda",
+        "after": [
+          {
+            "result": {
+              "duration": 109895000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.test.Hooks.GeneralHooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 734203000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Navigate to Google",
+            "match": {
+              "location": "com.automation.test.Steps.GoogleSteps.navigateToGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122318000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters \"Honda Motor\" on the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Honda Motor\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.automation.test.Steps.GoogleSteps.userEntersOnTheSearchBox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 738085000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click Search",
+            "match": {
+              "location": "com.automation.test.Steps.GoogleSteps.userClickSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9979787000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Web shows the result",
+            "match": {
+              "location": "com.automation.test.Steps.GoogleSteps.webShowsTheResult()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@forgotpassword"
+          }
+        ]
+      }
+    ],
+    "name": "Forgot password",
+    "description": "",
+    "id": "forgot-password",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/forgotpassword.feature",
+    "tags": [
+      {
+        "name": "@forgotpassword",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

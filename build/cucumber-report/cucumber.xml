@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="Test Suite" skipped="0" tests="1" time="8.502">
+
+<testcase classname="Google Search" name="Open google and search for Honda" time="3.295">
+            
+    <system-out>
+                    
+        <![CDATA[Given Navigate to Google....................................................passed
+When User enters "Honda Motor" on the search box............................passed
+And User click Search.......................................................passed
+Then Web shows the result...................................................passed
+]]>
+                
+    </system-out>
+        
+</testcase>
+
+</testsuite>

@@ -1,0 +1,95 @@
+[ {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2024-03-20T07:12:03.983Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 1520000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "com.automation.test.Hooks.GeneralHooks.before()"
+      }
+    } ],
+    "line" : 3,
+    "name" : "Open google and search for Honda",
+    "description" : "",
+    "id" : "google-search;open-google-and-search-for-honda",
+    "after" : [ {
+      "result" : {
+        "duration" : 93208000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "com.automation.test.Hooks.GeneralHooks.after()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 624598000,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "Navigate to Google",
+      "match" : {
+        "location" : "com.automation.test.Steps.GoogleSteps.navigateToGoogle()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 153530000,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "User enters \"Honda Motor\" on the search box",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"Honda Motor\"",
+          "offset" : 12
+        } ],
+        "location" : "com.automation.test.Steps.GoogleSteps.userEntersOnTheSearchBox(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 745673000,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User click Search",
+      "match" : {
+        "location" : "com.automation.test.Steps.GoogleSteps.userClickSearch()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1642121000,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "Web shows the result",
+      "match" : {
+        "location" : "com.automation.test.Steps.GoogleSteps.webShowsTheResult()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@googleSearch"
+    } ]
+  } ],
+  "name" : "Google Search",
+  "description" : "",
+  "id" : "google-search",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/features/GoogleSearch.feature",
+  "tags" : [ {
+    "name" : "@googleSearch",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} ]
